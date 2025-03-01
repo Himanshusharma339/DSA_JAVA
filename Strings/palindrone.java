@@ -13,7 +13,7 @@ public class palindrone {
         return true;
     }
     public static void main(String[] args) {
-        String str ="racecar";
+        String str ="mayaayam";
         System.out.println(isPalindrone(str));
 
         
