@@ -1,11 +1,10 @@
 import java.util.*;
 public class OptimizedPower {
-    public static int OptimizedP(int a,int n){//abhi time c h 0(n) is 0(logn)
+    public static int OptimizedP(int a,int n){//abhi time c h 0(n) is 0(logn) ab h optimized
         if(n == 0){
             return 1;
         }
         int halfpower =  OptimizedP(a,n/2);
-
 
         int halfPSq = halfpower * halfpower;
         //for odd
