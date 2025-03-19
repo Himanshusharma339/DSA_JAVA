@@ -18,7 +18,7 @@ public class Binarystr {
         
     }
     public static void main(String args[]){
-        PrintBinarystr(3,0," ");
+        PrintBinarystr(3,0,"");
 
         
 
